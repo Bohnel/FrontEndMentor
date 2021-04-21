@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 700px;
+    height: 50%;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card {
+    height: 100%;
+}
+
+.top {
+    height: 50%;
+    color: hsl(204, 15%, 80%);
+    padding: 3em;
+    /*margin: 3em;
+    */background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.top h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: .8em;
+}
+
+.top h2 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: .5em;
+}
+
+.bottom {
+    height: 50%;
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    background: rgb(42,178,160);
+    background: linear-gradient(90deg, rgba(42,178,160,1) 0%, rgba(0,0,0,0.30575980392156865) 100%);
+}
+
+.left h2 {
+    margin-bottom: 1em;
+}
+
+.left h1 {
+    margin-bottom: .4em;
+}
+
+.left span {
+    font-size: 1rem;
+    color: hsl(204, 15%, 80%);
+}
+
+.left p  {
+    width: 80%;
+    margin-bottom: .5em;
+    color: hsl(217, 70%, 87%);
+    text-align: left;
+}
+
+button {
+    border: none;
+    align-self: center;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 1.1rem;
+    height: 5em;
+    width: 80%;
+    margin-top: .2em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
